@@ -3,6 +3,7 @@
 
 import sqlite3
 
+# SQLite的特点是轻量级、可嵌入，但不能承受高并发访问
 # 连接数据库
 # 如果test.db 不存在会在当前目录创建
 conn = sqlite3.connect('test.db')
