@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-#-*- coding: utf-8 -*-
-L  = ['Michael','Sarah','Tracy','Bob','Jack']
+# -*- coding: utf-8 -*-
+L = ['Michael', 'Sarah', 'Tracy', 'Bob', 'Jack']
 # 从索引0开始取到索引3
 print(L[0:3])
 # 跟上面一样
@@ -24,6 +24,5 @@ print(L1[::5])
 print(L1[:])
 
 # tuple 和字符串也可以支持切片操作，只是切片后还是原来的类型
-print((1,2,3)[:])
+print((1, 2, 3)[:])
 print('abcd'[::2])
-

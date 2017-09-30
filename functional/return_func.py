@@ -8,8 +8,11 @@ def lazy_sum(*args):
         for n in args:
             ax = ax + n
         return ax
+
     return sum
-f = lazy_sum(1,3,5,7,9)
-f1 = lazy_sum(1,3,5,7,9)
-print('f == f1',f==f1)
-print('f()执行结果'f())
+
+
+f = lazy_sum(1, 3, 5, 7, 9)
+f1 = lazy_sum(1, 3, 5, 7, 9)
+print('f == f1', f == f1)
+print('f()执行结果', f())

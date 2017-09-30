@@ -5,8 +5,8 @@
 print('包含中文的str')
 
 # ord()函数获取字符的整数表示  chr()将对应的整数转换成字符
-print(ord('A')) # 65
-print(ord('中')) # 20013
+print(ord('A'))  # 65
+print(ord('中'))  # 20013
 
 # 字符和字节的相互转换
 'abc'.encode('ascii')
