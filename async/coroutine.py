@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 # 协程，又称微线程，纤程。英文名Coroutine。
+
+
 def consumer():
     r = ''
     while True:
